@@ -1,34 +1,50 @@
-# basic-calculator
+# 🧮 Advanced Calculator
 
-An Electron application with React
+A powerful and user-friendly web-based calculator built with **React** and **Tailwind CSS**, featuring advanced mathematical functions, expression history, keyboard input support, and memory management. Built using the secure [`expr-eval`](https://github.com/silentmatt/expr-eval) parser — no `eval()` used!
 
-## Recommended IDE Setup
+---
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## ✨ Features
 
-## Project Setup
+- ✅ Basic operations: `+`, `-`, `×`, `÷`, `%`, `^`
+- ✅ Advanced functions: `sin`, `cos`, `tan`, `sqrt`, `log`, `abs`, `exp`
+- ✅ Constants: `pi`, `ans` (last answer)
+- ✅ Parentheses support for complex expressions
+- ✅ Memory functions: `MS` (save), `MR` (recall), `MC` (clear)
+- ✅ Full keyboard support
+- ✅ Scrollable history view
+- ✅ Mobile-friendly responsive UI
+- ✅ CSP-safe (no `eval`)
 
-### Install
+---
+
+## 🚀 Live Demo
+Download the [Latest Desktop App](https://github.com/drummerviswa/electron-calculator/releases/download/v1.0.0/basic-calculator-1.0.0-setup.exe)  
+
+---
+
+## 📸 Screenshots
+
+![Standard](./resources/screenshot.png) 
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **Tailwind CSS** (utility-first styling)
+- **expr-eval** for expression parsing
+
+---
+
+## 🧩 Installation
 
 ```bash
-$ npm install
-```
+# 1. Clone the repository
+git clone https://github.com/drummerviswa/electron-calculator.git
+cd electron-calculator
 
-### Development
+# 2. Install dependencies
+npm install
 
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+# 3. Start the development server
+npm run dev
